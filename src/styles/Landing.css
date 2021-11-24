@@ -33,20 +33,13 @@ body {
 	display: grid;
 	grid-template-columns: 1fr 2fr 1fr 1fr 1fr 1fr 1fr;
 	justify-content: center;
-	//position: relative;
 	&__logo {
-		//width: 100%;
 		height: 50px;
 		justify-content: center;
-    	//transform: translate(50%, 50%)
 	}
 	&__text {
-		font-family: 'M PLUS 1', sans-serif;
-		font-weight: 600;
-		font-size: 20px;
-		line-height: 22px;
+		font: 600 20px/50px 'M PLUS 1', sans-serif;
 		color: #828282;
-		line-height: 50px;
 		text-align: center;
 		transition: color 0.3s;
 		&:hover {
@@ -62,17 +55,13 @@ body {
 .about {
 	display: flex;
 	flex-direction: column;
-	font-family: 'M PLUS 1', sans-serif;
+	font: 800 60px/80px 'M PLUS 1', sans-serif;
 	&__profile {
-		//padding: 30px;
 		display: flex;
-		font-size: 60px;
 		color: #336699;
-		line-height: 80px;
 	}
 	&__name {
 		margin: 0px 50px;
-		font-weight: 800;
 		display: flex;
 		flex-direction: column;
 		margin-top: auto;
@@ -90,30 +79,21 @@ body {
 	}
 	&__greetings {
 		margin: 50px 0 0 0;
-		color: #5e5d5d;
-		font-family: 'M PLUS 1', sans-serif;
-		font-weight: 400;
-		font-size: 30px;
-		line-height: 40px;
 		max-width: 850px;
+		color: #5e5d5d;
+		font: 400 30px/40px 'M PLUS 1', sans-serif;	
 	}
 	&__info {
 		margin: 35px 0 0 0;
 		color: #5e5d5d;
-		font-family: 'M PLUS 1', sans-serif;
-		font-weight: 400;
-		font-size: 18px;
-		line-height: 30px;
+		font: 400 18px/30px 'M PLUS 1', sans-serif;	
 	}
 }
 .works {
 	&__heading {
 		margin: 50px;
 		color: #336699;
-		font-family: 'M PLUS 1', sans-serif;
-		font-weight: 400;
-		font-size: 30px;
-		line-height: 40px;
+		font: 400 30px/40px 'M PLUS 1', sans-serif;	
 	}
 	&__img {
 		margin: 50px;
@@ -123,8 +103,10 @@ body {
 		grid-gap: 30px;
 	}
 	&__foto {
+		padding: 3px;
 		width: 635px;
-		border: 2px solid #8d8d8d;
+		border: 2px solid #ff5722;
+		border-radius: 4px;
 		text-align: center;
 	}
 }
@@ -142,18 +124,12 @@ body {
 	&__title {
 		//margin: 50px;
 		color: #336699;
-		font-family: 'M PLUS 1', sans-serif;
-		font-weight: 400;
-		font-size: 30px;
-		line-height: 40px;
+		font: 400 30px/40px 'M PLUS 1', sans-serif;	
 	}
 	&__subtitle {
 		margin: 20px 0 0 0;
 		color: #5e5d5d;
-		font-family: 'M PLUS 1', sans-serif;
-		font-weight: 400;
-		font-size: 30px;
-		line-height: 40px;
+		font: 400 25px/40px 'M PLUS 1', sans-serif;	
 	}		
 }
 .skills {
@@ -161,18 +137,12 @@ body {
 	width: 50%;
 	&__name {
 		color: #336699;
-		font-family: 'M PLUS 1', sans-serif;
-		font-weight: 400;
-		font-size: 25px;
-		line-height: 40px;
+		font: 400 25px/40px 'M PLUS 1', sans-serif;	
 	}
 	&__item {
 		margin: 10px 0;
 		color: #5e5d5d;
-		font-family: 'M PLUS 1', sans-serif;
-		font-weight: 400;
-		font-size: 18px;
-		line-height: 23px;
+		font: 400 18px/23px 'M PLUS 1', sans-serif;	
 	}
 }
 .repositori {
@@ -180,17 +150,11 @@ body {
 	width: 50%;
 	&__name {
 		color: #83838E;
-		font-family: 'M PLUS 1', sans-serif;
-		font-weight: 800;
-		font-size: 25px;
-		line-height: 40px;
+		font: 800 25px/40px 'M PLUS 1', sans-serif;	
 	}
 	&__description {
 		color: #83838E;
-		font-family: 'M PLUS 1', sans-serif;
-		font-weight: 400;
-		font-size: 20px;
-		line-height: 30px;
+		font: 400 20px/30px 'M PLUS 1', sans-serif;
 	}
 	&__item {
 
@@ -202,10 +166,7 @@ body {
 	&__lg {
 		margin: 0 20px 0 10px;
 		color: #83838E;
-		font-family: 'M PLUS 1', sans-serif;
-		font-weight: 400;
-		font-size: 16px;
-		line-height: 20px;
+		font: 400 16px/20px 'M PLUS 1', sans-serif;
 	}
 	&__dot {
 		height: 20px;
@@ -230,10 +191,7 @@ body {
 	display: flex;
 	padding: 120px 50px;
 	box-sizing: border-box;
-	font-family: 'M PLUS 1', sans-serif;
-	font-weight: 400;
-	font-size: 18px;
-	line-height: 35px;
+	font: 400 18px/35px 'M PLUS 1', sans-serif;	
 	&__title {
 		font-weight: 800;
 		font-size: 20px;
@@ -261,8 +219,6 @@ body {
 	display: flex;
 	margin-top: auto;
 	&__iqon {
-		font-family: awesome;
-		font-style: normal;
 		margin: 5px;
 		height: 45px;
 		width: 45px;
@@ -275,9 +231,7 @@ body {
 		}
 	}
 	&__pic {
-		font-style: normal;
-		font-size: 30px;
-		line-height: 45px;
+		font: normal 30px/45px awesome;
 	}
 }
 .tw:before {
@@ -295,3 +249,84 @@ body {
 .mr:before {
 	content: "\f1fa";
 }
+
+@media screen and (max-device-width: 768px) {
+	body {
+		width: 100vw;
+		/* position: fixed;
+		width: 100%;
+		border-bottom: solid 1px #c6c1c1;
+		background-color: white;
+		z-index: 10; */
+	}
+	.container {
+		width: 100vw;
+		margin: 0;
+	}
+	.article {
+		height: auto;
+		width: 100vw;
+		box-sizing: border-box;
+		margin: 0 auto 0 auto;
+		max-width: 320px;
+		&__body {
+			margin: 20px 0 0 0;
+			display: flex;
+			flex-direction: column;
+		}
+	}
+	.header {
+		display: flex;
+		justify-content: flex-start;
+		margin: 40px 0 0 0;
+		&__logo {
+			
+		}
+		&__text {
+			display: none;
+		}
+	}
+	.about {
+		font: 800 50px/60px 'M PLUS 1', sans-serif;
+		&__profile {
+			display: block;
+			margin-top: 20px;
+		}
+		&__name {
+			margin: 0;
+			&--grey {
+				& span {
+					padding-top: 60px;
+					color: #5e5d5d;
+					margin-right: 25px;
+
+				}
+			}
+		}
+		&__greetings {
+			margin-top: 20px;
+			font: 400 25px/35px 'M PLUS 1', sans-serif;
+		}
+		&__info {
+			& p:nth-child(3) {
+				margin-top: 10px;
+			}
+			& p:nth-child(4) {
+				margin-top: 10px;
+			}
+		}
+ 	}
+	.works {
+		&__heading {
+			margin: 40px 0;
+		}
+		&__img {
+			display: block;
+			margin: 40px 0;
+		}
+		&__foto {
+			width: 320px;
+			box-sizing: border-box;
+		}
+	}
+  }
