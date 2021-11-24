@@ -175,6 +175,51 @@ body {
 		line-height: 23px;
 	}
 }
+.repositori {
+	margin-left: 50px;
+	width: 50%;
+	&__name {
+		color: #83838E;
+		font-family: 'M PLUS 1', sans-serif;
+		font-weight: 800;
+		font-size: 25px;
+		line-height: 40px;
+	}
+	&__description {
+		color: #83838E;
+		font-family: 'M PLUS 1', sans-serif;
+		font-weight: 400;
+		font-size: 20px;
+		line-height: 30px;
+	}
+	&__item {
+
+	}
+}
+.item {
+	display: flex;
+	margin: 10px 0;
+	&__lg {
+		margin: 0 20px 0 10px;
+		color: #83838E;
+		font-family: 'M PLUS 1', sans-serif;
+		font-weight: 400;
+		font-size: 16px;
+		line-height: 20px;
+	}
+	&__dot {
+		height: 20px;
+		width: 20px;
+		background: #ff9800;
+		border-radius: 10px;
+		&:nth-child(3) {
+			background: #9c27b0;
+		}
+		&:nth-child(5) {
+			background: #ffeb3b;
+		}
+	}
+}
 .footer-background {
 	background: #2F2F38;
 	color: #ADADB9;
