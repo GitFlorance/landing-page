@@ -1,0 +1,70 @@
+.about {
+	display: flex;
+	flex-direction: column;
+	font: 800 60px/80px 'M PLUS 1', sans-serif;
+	&__profile {
+		display: flex;
+		color: #336699;
+	}
+	&__name {
+		margin: 0px 50px;
+		display: flex;
+		flex-direction: column;
+		margin-top: auto;
+		&--grey {
+			display: flex;
+			color: #ff5722;
+			& span {
+				color: #5e5d5d;
+			}
+		}
+	}
+	&__foto {
+		width: 200px;
+		height: 100%;
+	}
+	&__greetings {
+		margin: 50px 0 0 0;
+		max-width: 850px;
+		color: #5e5d5d;
+		font: 400 30px/40px 'M PLUS 1', sans-serif;	
+	}
+	&__info {
+		margin: 35px 0 0 0;
+		color: #5e5d5d;
+		font: 400 18px/30px 'M PLUS 1', sans-serif;	
+	}
+    @media screen and (max-width: 768px) {
+        font: 800 50px/60px 'M PLUS 1', sans-serif;
+		&__profile {
+			display: block;
+			margin-top: 20px;
+		}
+		&__name {
+			margin: 0;
+			&--grey {
+				& span {
+					padding-top: 60px;
+					color: #5e5d5d;
+					margin-right: 25px;
+
+				}
+			}
+		}
+		&__greetings {
+			margin-top: 20px;
+			font: 400 25px/35px 'M PLUS 1', sans-serif;
+		}
+		&__info {
+			margin-top: 10px;
+			& p:nth-child(3) {
+				margin-top: 10px;
+				color: #369;
+			}
+			& p:nth-child(4) {
+				margin-top: 10px;
+				color: #ff5722;
+			}
+		}
+    }
+}

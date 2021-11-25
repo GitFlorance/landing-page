@@ -1,0 +1,46 @@
+.repositori {
+	margin-left: 50px;
+	width: 50%;
+	&__name {
+		color: #ff5722;
+		font: 600 20px/30px 'M PLUS 1', sans-serif;	
+	}
+	&__description {
+		color: #83838E;
+		font: 400 20px/30px 'M PLUS 1', sans-serif;
+	}
+	@media screen and (max-width: 768px) {
+        margin: 20px 0 0 0;
+		width: 100%;
+		&__name {
+			font: 600 15px/18px 'M PLUS 1', sans-serif;	
+		}
+		&__description {
+			font: 400 15px/18px 'M PLUS 1', sans-serif;	
+		}
+    }
+}
+.item {
+	display: flex;
+	margin: 10px 0;
+	&__lg {
+		margin: 0 20px 0 10px;
+		color: #83838E;
+		font: 400 16px/20px 'M PLUS 1', sans-serif;
+	}
+	&__dot {
+		height: 20px;
+		width: 20px;
+		background: #ff9800;
+		border-radius: 10px;
+		&:nth-child(3) {
+			background: #9c27b0;
+		}
+		&:nth-child(5) {
+			background: #ffeb3b;
+		}
+	}
+	@media screen and (max-width: 768px) {
+        
+    }
+}

@@ -1,0 +1,35 @@
+.article {	
+    max-width: 1300px;
+	margin: 0 auto;
+	height: 100vh;
+	&__header {
+		margin: 50px 0;
+	}
+	&__body {
+		margin: 160px 0;
+	}
+	&__list {
+		height: 100vh;
+		display: flex;
+		padding: 20px 0;
+		box-sizing: border-box;
+	}
+	&__epilogue {
+		height: auto;
+		box-sizing: border-box;
+	}
+    @media screen and (max-width: 768px) {
+        height: auto;
+		margin: 0 auto 0 auto;
+		max-width: 300px;
+		&__body {
+			margin: 20px 0 0 0;
+		}
+		&__list {
+			display:block;
+		}
+		&__epilogue {
+			margin: 50px auto;
+		}
+    }
+}

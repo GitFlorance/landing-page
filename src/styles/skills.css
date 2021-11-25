@@ -1,0 +1,24 @@
+.skills {
+	margin-left: 50px;
+	width: 50%;width: 50%;
+	&__name {
+		color: #ff5722;
+		font: 600 20px/30px 'M PLUS 1', sans-serif;	
+	}
+	&__item {
+		margin: 10px 0;
+		color: #5e5d5d;
+		font: 400 20px/30px 'M PLUS 1', sans-serif;	
+	}
+	@media screen and (max-width: 768px) {
+        margin: 30px 0 0;
+		width: 100%;
+		&__name {
+			font: 600 15px/18px 'M PLUS 1', sans-serif;	
+		}
+		&__item {
+			margin: 10px 0;
+			font: 400 15px/18px 'M PLUS 1', sans-serif;	
+		}
+    }
+}

@@ -1,0 +1,9 @@
+body {
+	margin: 0px;
+	p,h1,h2,i {
+		margin: 0;
+	}
+	@media screen and (max-width: 768px) {
+		width: 100vw;
+	}
+}

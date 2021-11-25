@@ -1,0 +1,28 @@
+.header {
+	height: 50px;
+	display: grid;
+	grid-template-columns: 1fr 2fr 1fr 1fr 1fr 1fr 1fr;
+	justify-content: center;
+	&__logo {
+		height: 50px;
+		justify-content: center;
+	}
+	&__text {
+		font: 600 20px/50px 'M PLUS 1', sans-serif;
+		color: #828282;
+		text-align: center;
+		transition: color 0.3s;
+		&:hover {
+			color: #ff5722;
+			cursor: pointer;
+		}
+	}
+    @media screen and (max-width: 768px) {
+        display: flex;
+		justify-content: flex-start;
+		margin: 40px 0 0 0;
+		&__text {
+			display: none;
+		} 
+    }
+}

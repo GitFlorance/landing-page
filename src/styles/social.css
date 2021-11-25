@@ -1,0 +1,37 @@
+.social {
+	display: flex;
+	margin-top: auto;
+	&__iqon {
+		margin: 5px;
+		height: 45px;
+		width: 45px;
+		background: #ADADB9;
+		color: white;
+		text-align: center;
+		transition: background 0.3s;
+		&:hover {
+			background: #ff5722;
+		}
+	}
+	&__pic {
+		font: normal 30px/45px awesome;
+	}
+	@media screen and (max-width: 768px) {
+        
+    }
+}
+.tw:before {
+	content: "\f09b";
+}
+.fb:before {
+	content: "\f09a";
+}
+.vk:before {
+	content: "\f189";
+}
+.cp:before {
+	content: "\f1cb";
+}
+.mr:before {
+	content: "\f1fa";
+}

@@ -1,0 +1,37 @@
+.sticky {
+	position: relative; 
+	width: 50%;	
+	&__item {
+		position: sticky;
+		top: 10px;
+		padding-bottom: 20%;
+	}
+    @media screen and (max-width: 768px) {
+		width: 100%;
+		&__item {
+			padding-bottom: 0;
+		}	
+    }
+}
+.infoBlock {
+	position: sticky;
+	&__title {
+		color: #336699;
+		font: 400 30px/40px 'M PLUS 1', sans-serif;	
+	}
+	&__subtitle {
+		margin: 20px 0 0 0;
+		color: #5e5d5d;
+		font: 400 25px/40px 'M PLUS 1', sans-serif;	
+	}	
+    @media screen and (max-width: 768px) {
+		margin: 10px 0;
+		&__title {
+			font: 600 18px/22px 'M PLUS 1', sans-serif;	
+		}
+		&__subtitle {
+			margin: 10p 0 0 0;
+			font: 400 18px/22px 'M PLUS 1', sans-serif;	
+		}	
+    }	
+}
