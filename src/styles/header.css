@@ -16,13 +16,35 @@
 			color: #ff5722;
 			cursor: pointer;
 		}
+		&__menu {
+			display: none;
+		}
 	}
     @media screen and (max-width: 768px) {
         display: flex;
-		justify-content: flex-start;
+		justify-content: space-between;
 		margin: 40px 0 0 0;
 		&__text {
 			display: none;
 		} 
+		&__menu {
+			width: 55px;
+			height: 18px;
+		}
     }
+}
+.menu {
+	&__line {
+	}
+    @media screen and (max-width: 768px) {
+		display: flex;
+  		flex-direction: column;
+		justify-content: space-between;
+
+		&__line {
+			background: #adadb9;
+			width: 55px;
+			height: 6px;
+		}
+	}
 }

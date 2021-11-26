@@ -50,9 +50,13 @@
 	}
 	&__contacts {
 		width: 100%;
+		align-items: flex-start;
+		margin-top: 20px;
 	}
 	&__logo {
+		margin-top: 35px;
+		width: 100px;
 		position: absolute;
-		transform: translateY(150px);
+		transform: translateY(180px);
 	}
 }
