@@ -1,0 +1,82 @@
+.menu {
+    display: none;
+    /* position: fixed; */
+    background: white;
+    @media screen and (max-width: 768px) {
+        background: white;
+        padding: 40px 0 40px 0;
+        height: 100vh;
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+        &__header {
+            font: 600 20px/30px 'M PLUS 1', sans-serif;
+            display: flex;
+            justify-content: space-between;
+            color: #828282;
+            height: 30px;
+            &-logo {
+                height: 30px;
+                width: 85px;
+            }
+        }
+        &__list {
+            font: 600 20px/100px 'M PLUS 1', sans-serif;
+            color: #828282;
+            text-align: center;
+            &-text {}
+        }
+        &__close {
+            position: relative;
+            left: 60px;
+            width: 85px;
+            height: 30px;
+            opacity: 0.3;
+
+            &:hover {
+                opacity: 1;
+            }
+            &::before, &::after {
+                position: absolute;
+                left: 15px;
+                content: ' ';
+                height: 30px;
+                width: 2px;
+                background-color: #333;
+            }
+            &::before {
+                transform: rotate(45deg);
+            }
+            &::after {
+                transform: rotate(-45deg);
+            }
+        }
+        &__footer {
+            max-width: 1300px;
+            margin: 0 auto;
+            box-sizing: border-box;
+            font: 400 18px/35px 'M PLUS 1', sans-serif;
+            text-align: center;
+            color: #828282;
+        }
+        &__title {
+            font-weight: 800;
+            font-size: 20px;
+            margin-bottom: 15px;
+            color: #ff5722;
+        }
+    }
+
+}
+
+.invisible {
+    && {
+        display: none;
+    }
+}
+
+
+
+    

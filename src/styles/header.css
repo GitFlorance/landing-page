@@ -33,14 +33,13 @@
 		}
     }
 }
-.menu {
+.button {
 	&__line {
 	}
     @media screen and (max-width: 768px) {
 		display: flex;
   		flex-direction: column;
 		justify-content: space-between;
-
 		&__line {
 			background: #adadb9;
 			width: 55px;

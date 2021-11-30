@@ -7,3 +7,6 @@ body {
 		width: 100vw;
 	}
 }
+.hidden {
+	overflow: hidden;
+}

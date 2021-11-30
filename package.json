@@ -9,7 +9,8 @@
         "build": "gulp buildHtml",
         "all": "gulp browser-sync",
         "pic": "gulp buildImgs",
-        "font": "gulp buildFonts"
+        "font": "gulp buildFonts",
+        "js": "gulp buildJs"
     },
     "repository": {
         "type": "git",
