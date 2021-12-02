@@ -5,16 +5,43 @@
 <title>Personal site</title>
 <link rel="stylesheet" href="./css/index.min.css">
 <link href="https://fonts.googleapis.com/css2?family=M+PLUS+1:wght@100;200;300;500;600;700;800;900&display=swap" rel="stylesheet">
-<script type="text/javascript" src="../js/index.min.js"></script>	
+<script type="text/javascript" src="./js/index.min.js"></script>	
 </head>
 <body>
-	<div class="article menu invisible">
-		<div class="menu__header menu__item">
-			<img src="./imgs/name.png" alt="name" class="menu__header-logo menu__item">
-			<p>Menu</p>
-			<a href="#" class="menu__close menu__item"></a>
+	<header class="header">
+		<div class="header__some">
+			<div class="header__conteiner">
+				<div class="">
+					<img src="./imgs/name.png" alt="name" class="header__logo">
+				</div>
+				<div></div>
+				<div class="header__text">
+					About me
+				</div>
+				<div class="header__text">
+					Recent works
+				</div>
+				<div class="header__text">
+					Skills
+				</div>
+				<div class="header__text">
+					Git Repository
+				</div>
+				<div class="header__text">
+					Contacts
+				</div>
+				<div class="header__menu button js-menu_button">
+					<div class="button__line  js-menu_lineOne"></div>
+					<div class="button__line  js-menu_lineTwo"></div>
+				</div>
+			</div>
 		</div>
+	</header>
+	<div class="article menu invisible">
 		<div class="menu__list ">
+			<div class="menu__list-text">
+				Menu
+			</div>
 			<div class="menu__list-text">
 				Recent works
 			</div>
@@ -39,31 +66,6 @@
 		</div>
 	</div>
 	<div class="article home">
-		<div class="article__header header">
-			<div class="">
-				<img src="./imgs/name.png" alt="name" class="header__logo">
-			</div>
-			<div></div>
-			<div class="header__text">
-		 		About me
-		 	</div>
-		 	<div class="header__text">
-		 		Recent works
-		 	</div>
-		 	<div class="header__text">
-		 		Skills
-		 	</div>
-		 	<div class="header__text">
-		 		Git Repository
-		 	</div>
-		 	<div class="header__text">
-		 		Contacts
-		 	</div>
-			<div class="header__menu button js-menu_button">
-				<div class="button__line"></div>
-				<div class="button__line"></div>
-			</div>
-		</div>
 		<div class="article__body about">
 			<div class="about__profile">
 				<img src="./imgs/foto.png" alt="foto" class="about__foto">

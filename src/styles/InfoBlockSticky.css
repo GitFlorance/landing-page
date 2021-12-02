@@ -2,7 +2,6 @@
 	position: relative; 
 	width: 50%;	
 	&__item {
-		position: sticky;
 		top: 10px;
 		padding-bottom: 20%;
 	}

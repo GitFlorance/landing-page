@@ -35,10 +35,11 @@
 		font: 400 18px/30px 'M PLUS 1', sans-serif;	
 	}
     @media screen and (max-width: 768px) {
+		max-width: 300px;
         font: 800 50px/60px 'M PLUS 1', sans-serif;
 		&__profile {
 			display: block;
-			margin-top: 20px;
+			margin-top: 0px;
 		}
 		&__name {
 			margin: 0;

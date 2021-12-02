@@ -1,16 +1,14 @@
 .menu {
     display: none;
-    /* position: fixed; */
     background: white;
     @media screen and (max-width: 768px) {
         background: white;
-        padding: 40px 0 40px 0;
-        height: 100vh;
+        padding: 25px 0 40px 0;
+        height: calc(100vh - 110px);
         box-sizing: border-box;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-
         &__header {
             font: 600 20px/30px 'M PLUS 1', sans-serif;
             display: flex;
@@ -23,35 +21,12 @@
             }
         }
         &__list {
-            font: 600 20px/100px 'M PLUS 1', sans-serif;
+            font: 600 20px/90px 'M PLUS 1', sans-serif;
             color: #828282;
             text-align: center;
-            &-text {}
         }
-        &__close {
-            position: relative;
-            left: 60px;
-            width: 85px;
-            height: 30px;
-            opacity: 0.3;
-
-            &:hover {
-                opacity: 1;
-            }
-            &::before, &::after {
-                position: absolute;
-                left: 15px;
-                content: ' ';
-                height: 30px;
-                width: 2px;
-                background-color: #333;
-            }
-            &::before {
-                transform: rotate(45deg);
-            }
-            &::after {
-                transform: rotate(-45deg);
-            }
+        &__list-text:nth-child(1) {
+            color: #ff5722;
         }
         &__footer {
             max-width: 1300px;
