@@ -3,6 +3,16 @@ body {
 	p,h1,h2,i {
 		margin: 0;
 	}
+	a {
+		display: block;
+		text-decoration: none;
+		color: #828282;
+		transition: color 0.3s;
+		&:hover {
+			color: #ff5722;
+			cursor: pointer;
+		}
+	}
 	@media screen and (max-width: 768px) {
 		width: 100vw;
 		position:relative;

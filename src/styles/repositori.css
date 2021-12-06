@@ -1,7 +1,11 @@
-.repositori {
+.gitRepositori {
 	margin-left: 50px;
 	width: 50%;
+}
+.repositori {
+	margin-bottom: 30px;
 	&__name {
+		margin-bottom: 10px;
 		color: #ff5722;
 		font: 600 20px/30px 'M PLUS 1', sans-serif;	
 	}
@@ -9,6 +13,7 @@
 		color: #83838E;
 		font: 400 20px/30px 'M PLUS 1', sans-serif;
 	}
+
 	@media screen and (max-width: 768px) {
         margin: 20px 0 0 0;
 		width: 100%;
@@ -31,16 +36,31 @@
 	&__dot {
 		height: 20px;
 		width: 20px;
-		background: #ff9800;
 		border-radius: 10px;
-		&:nth-child(3) {
-			background: #9c27b0;
-		}
-		&:nth-child(5) {
-			background: #ffeb3b;
-		}
 	}
-	@media screen and (max-width: 768px) {
-        
+	&__star {
+		color: #369;
+		font-size: 30px;
+		line-height: 20px;
+	}
+	&__count {
+		margin-left: 5px;
+		color: #83838E;
+		font: 400 16px/20px 'M PLUS 1', sans-serif;
+	}
+	@media screen and (max-width: 768px) {   
     }
+}
+
+.or {
+	background: #ff9800;
+}
+.viol {
+	background: #9c27b0;
+}
+.yell {
+	background: #ffeb3b;
+}
+.ano {
+	background: #83838e;
 }

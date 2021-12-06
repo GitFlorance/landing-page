@@ -82,6 +82,11 @@ gulp.task('buildHtml-watch', gulp.series('buildHtml', (done) => {
 	done();
 }));
 
+gulp.task('buildJs-watch', gulp.series('buildJs', (done) => {
+	browserSync.reload();
+	done();
+}));
+
 gulp.task('browser-sync', () => {
     browserSync.init({
         server: {
@@ -90,6 +95,7 @@ gulp.task('browser-sync', () => {
     });
 	gulp.watch(path.src.style, gulp.series('buildCss-watch'));	
 	gulp.watch(path.src.dir, gulp.series('buildHtml-watch'));	
+	gulp.watch(path.src.script, gulp.series('buildJs-watch'));	
 });
 
 
