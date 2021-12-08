@@ -1,6 +1,10 @@
 .gitRepositori {
 	margin-left: 50px;
 	width: 50%;
+	@media screen and (max-width: 768px) {
+		margin-left: 0;
+		width: 100%;
+	}
 }
 .repositori {
 	margin-bottom: 30px;

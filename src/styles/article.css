@@ -1,13 +1,15 @@
 .article {	
     max-width: 1300px;
 	margin: 0 auto;
-	height: 100vh;
+	&--fullScreen {
+		height: 100vh;
+	}
 	&__header {
 		margin: 70px 0;
 	}	
 	&__list {
 		display: flex;
-		padding: 20px 0;
+		padding: 10px 0;
 		box-sizing: border-box;
 		& {
 			height: auto;
@@ -35,7 +37,7 @@
 
 .home {
 	& {
-		margin-top: -150px;
+		margin-top: -120px;
 		display: flex;
 		align-items: center;
 	}

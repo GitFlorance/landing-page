@@ -8,7 +8,6 @@ const autoprefixer = require('autoprefixer');
 const nested = require('postcss-nested');
 const assets = require('postcss-assets');
 const cssnano = require('gulp-cssnano');
-const uglify = require('gulp-uglify-es').default;
 const rename = require('gulp-rename');
 const glob = require('glob');
 
@@ -59,6 +58,7 @@ gulp.task('buildJs', () => {
 	    // .pipe(uglify())
 		.pipe(gulp.dest(path.buildFolder.script))
 });
+
 gulp.task('buildImgs', () => {
 	return gulp.src([path.src.images])
 		.pipe(gulp.dest(path.buildFolder.images))

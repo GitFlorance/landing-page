@@ -30,11 +30,9 @@
         "gulp-postcss": "^8.0.0",
         "gulp-uglify": "^3.0.1",
         "gulp-uglify-es": "^1.0.4",
-        "jquery": "^3.3.1",
         "postcss-assets": "^5.0.0",
         "postcss-nested": "^4.1.0",
         "postcss-preset-env": "^6.4.0",
-        "slide-and-swipe-menu": "^1.2.6",
         "uglify": "^0.1.5"
     },
     "dependencies": {

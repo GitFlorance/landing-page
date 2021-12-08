@@ -3,7 +3,7 @@
 	width: 50%;	
 	&__item {
 		top: 10px;
-		padding-bottom: 20%;
+		padding-bottom: 20px;
 	}
     @media screen and (max-width: 768px) {
 		width: 100%;
