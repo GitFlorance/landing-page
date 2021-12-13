@@ -11,6 +11,7 @@
 		transition: background 0.3s;
 		&:hover {
 			background: #ff5722;
+			color: white;
 		}
 	}
 	&__pic {
