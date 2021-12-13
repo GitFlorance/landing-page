@@ -1,5 +1,5 @@
 {
-    "name": "yahevin_resume",
+    "name": "landing-page",
     "version": "1.0.0",
     "description": "",
     "main": "index.js",
@@ -14,14 +14,14 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/WebHeroSchool/Yahevin_resume.git"
+        "url": "git+https://github.com/GitFlorance/landing-page.git"
     },
     "author": "",
     "license": "ISC",
     "bugs": {
-        "url": "https://github.com/WebHeroSchool/Yahevin_resume/issues"
+        "url": "https://github.com/GitFlorance/landing-page/issues"
     },
-    "homepage": "https://github.com/WebHeroSchool/Yahevin_resume#readme",
+    "homepage": "https://github.com/GitFlorance/landing-page#readme",
     "devDependencies": {
         "browser-sync": "^2.26.3",
         "cssnano": "^4.1.8",
