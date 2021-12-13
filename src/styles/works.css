@@ -20,6 +20,14 @@
 		border-radius: 4px; */
 		text-align: center;
 	}
+	&__lings {
+		position: absolute;
+		width: 635px;
+		height: 322px;
+		z-index: 5;
+		transform: translateY(-322px);
+	}
+	
     @media screen and (max-width: 768px) {
         &__heading {
 			margin: 40px 0;
@@ -32,6 +40,11 @@
 			height: 152px;
 			width: 300px;
 			box-sizing: border-box;
+		}
+		&__lings {
+			width: 300px;
+			height: 152px;
+			transform: translateY(-152px);
 		}
     }
 }

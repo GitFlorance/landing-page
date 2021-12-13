@@ -14,8 +14,8 @@
 		font: 600 20px/30px 'M PLUS 1', sans-serif;	
 	}
 	&__description {
-		color: #83838E;
-		font: 400 20px/30px 'M PLUS 1', sans-serif;
+		color: #5e5d5d;
+		font: 400 20px/30px 'M PLUS 1', sans-serif;	
 	}
 
 	@media screen and (max-width: 768px) {
